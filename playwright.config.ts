@@ -4,7 +4,7 @@ import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
     timeout: 60e3 * 20,
-    testDir: process.env.CI === 'true' ? './dist/src' : './src',
+    testDir: (process.env.CI === undefined || process.env.CI === true) ? './dist/src' : './src',
     testMatch: config.default.testMatch,
     fullyParallel: true,
     forbidOnly: true,
