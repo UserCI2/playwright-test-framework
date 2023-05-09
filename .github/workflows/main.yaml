@@ -1,6 +1,8 @@
 on:
   pull_request:
     branches: [ main ]
+    env:
+      CI: true
 jobs:
   tests_e2e:
     name: Run end-to-end tests
