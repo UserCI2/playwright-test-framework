@@ -3,7 +3,7 @@ dotenv.config();
 const siteUrl: string =
   process.env.SITE_URL === undefined
     ? 'https://dev.omni-dispatch.com/'
-    : process.env.SITE_URL; // default url
+    : process.env.SITE_URL; // default  url
 const siteEnv: string = process.env.SITE_ENV; // default env
 const channel: string =
   process.env.CHANNEL === undefined ? 'chrome' : process.env.CHANNEL; // chrome , msedge , chrome-beta , msedge-beta or msedge-dev
