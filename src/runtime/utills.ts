@@ -1,4 +1,4 @@
-import config from "./config";
+import config from './config';
 const siteEnv = config.siteEnv;
 
 export function skipByEnvsLimited(
@@ -24,5 +24,5 @@ export function skipByEnvsUnsupported(
 }
 
 export async function sleep(timeout: number) {
-    return new Promise(resolve => setTimeout(resolve, timeout));
+  return new Promise((resolve) => setTimeout(resolve, timeout));
 }
