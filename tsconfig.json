@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "outDir": "dist",
+    "target": "es2017",
+    "lib": ["es6", "dom"],
+    "module": "CommonJS",
+    "resolveJsonModule": true
+  },
+  "exclude": ["playwright-report", "test-results"]
+}

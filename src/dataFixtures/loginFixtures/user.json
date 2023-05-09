@@ -1,0 +1,30 @@
+{
+  "validUsers": [
+    {
+      "email": "test@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "12345678"
+    }
+  ],
+  "invalidUser": {
+    "invalidPassword": {
+      "email": "test@gmail.com",
+      "password": "12345678vLl**"
+    },
+    "invalidEmail": {
+      "email": "test12321312@gmail.com",
+      "password": "12345678"
+    },
+    "invalidEmailAndPassword": {
+      "email": "adsdsada@gmail.com",
+      "password": "passworDDd**123"
+    }
+  }
+}
